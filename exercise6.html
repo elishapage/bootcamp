@@ -21,7 +21,7 @@
             #redbox:hover {
                     background-color: green;
                 }
-
+            a{color: black}
             a:hover{background-color: lightgrey}
                 }
 
@@ -33,13 +33,26 @@
             .dropdown-content {
                 display: none;
                 position: absolute;
-                background-color: yellow;
+                background-color: lightgrey;
                 }
 
             .dropdown:hover .dropdown-content {
                 display: block;
                 }
+            
+            .roundedcorners {
+                
+                width: 40%;
+                height: 200px;
+                background-image: linear-gradient(to right, green, yellow);
 
+    
+                border-radius: 50px;
+                 }
+
+            .roundedtext{padding: 25px; color: white;}
+
+        
 
     	</style>
 	</head>
@@ -74,7 +87,12 @@
             Don't hover!
         </div>
 
+        <div class="roundedcorners">
+            <p class="roundedtext">I've got rounded corners and a gradient!!</p>
 
+
+
+        </div>
 
 
 
