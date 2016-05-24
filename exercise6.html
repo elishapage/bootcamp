@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  	<head>
+    	<meta charset="utf-8">
+
+    	<style>
+
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            nav>ul>li {display: inline-block;}
+            nav ul li:not(:last-child) {border-right: 2px solid orange;}
+            #redbox {
+                width: 200px;
+                height: 200px;
+                background-color: red;
+                }
+            #redbox:hover {
+                    background-color: green;
+                }
+
+            a:hover{background-color: lightgrey}
+                }
+
+            .dropdown {
+                position: relative;
+                display: inline-block;
+                    }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: yellow;
+                }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+                }
+
+
+    	</style>
+	</head>
+	<body>
+		<nav>
+            <ul>
+                <li class="dropdown"><a href="#"> Menu Item 1 </a>
+                    
+                    <ul class="dropdown-content">
+                        <li><a href="#"> Dropdown Item 1 </a></li>
+                        <li><a href="#"> Dropdown Item 2 </a></li>
+                        <li><a href="#">Dropdown Item 3 </a></li>
+                    
+                    </ul>
+               
+
+                </li>
+                <li><a href="#"> Menu Item 2 </a></li>
+                <li><a href="#">Menu Item 3 </a></li>
+                <li><a href="#">Menu Item 4 </a></li>
+            </ul>
+        </nav>
+        
+
+
+   
+
+
+
+
+        <div id="redbox">
+            Don't hover!
+        </div>
+
+
+
+
+
+
+
+    
+	</body>
+</html>
+
