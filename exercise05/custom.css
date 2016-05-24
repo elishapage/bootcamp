@@ -1,7 +1,7 @@
 #wrapper{border: 5px solid orange; width: 800px; margin: 0px auto;}
 
 #content{background-color: gray; width: 80%; height: 300px; float: left;}
-#sidebar{background-color: yellow; width: 20%; height: 300px; float: right;}
+#sidebar{background-color: yellow; width: 20%; height: 300px; float: left;}
 
 #top{background-color: gray; width: 100%; height: 200px; float: left;}
 
@@ -18,5 +18,5 @@
 #wkright{background-color: orange; width: 25%; height: 150px;float: left}
 #wkfarright{background-color: magenta; width: 25%; height: 150px;float: left}
 
-
-footer{background-color: green; height: 50px; clear:both;}
+p{padding: 15px;}
+footer{background-color: green; height: 60px; clear:both;}
